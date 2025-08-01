@@ -1,0 +1,10 @@
+apiVersion: tekton.dev/v1alpha1
+kind: TriggerBinding
+metadata:
+  name: hello-trigger-binding
+spec:
+  params:
+    - name: repository
+      value: "https://github.ibm.com/Sanket-Patil12/Tekton-demo-temp/"
+    - name: branch
+      value: "master"
